@@ -1,0 +1,187 @@
+body{
+    background-color: #f1f5f8;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+    overflow: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #346c73;
+}
+
+.Logo_y_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+}
+.Logo_y_titulo  .Logo{
+    margin: 0px 10px;
+}
+
+.titulo{
+    color: #30dab2;
+
+}
+
+.Logo {
+    border-radius: 100px;
+    background-color: #f7f6f6;
+    height: 30px;
+    width: 30px;
+}
+   
+.Lista_menu { 
+    display: flex;
+    list-style-type: none ;
+    margin: 0px;
+}
+
+.Lista_menu li{ 
+    font-weight: 500;
+    margin: 15px;
+    font-size: 20px;
+}
+
+.boton_registro {
+    margin: 35px;
+    background-color: #2a693c;
+    border-radius: 5px;
+    color: rgb(228, 228, 228);
+    width: 100px;
+    height: 32px;
+    font-weight: 800;
+    border: none;
+    
+}
+
+.botones_headers{
+    display: flex;
+    margin-right: 200px;
+}
+
+.contenedor_Boton_registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.boton_inicio_sesion {
+    margin: 0px;
+    background-color: #88d1c0;
+    border-radius: 5px;
+    color: rgb(5, 5, 5);
+    width: 125px;
+    height: 32px;
+    font-weight: 800;
+    border: none;
+    
+}
+
+.contenedor_Boton_inicio_sesion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Main {
+    background: linear-gradient(#1d9e3d, #002b0e)  ;
+    height: 675px;
+    border: #404041;
+}
+.Seccion1_main{
+    display: flex;
+    margin-left: 200px;
+    padding: 15px;
+}
+
+.Card_1{
+    padding: 30px ;
+    width: 450px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+.boton_card_1 {
+    background-color: #88d1c0;
+    color: #030303;
+    border: none;
+    border-radius: 12px;
+    height: 40px;
+    width: 130px;
+    margin-top: 7px;
+}
+
+.boton_card_2{
+    background-color: #12271e;
+    color: #ffffff;
+    border: 2px solid #b7a800;
+    border-radius: 12px;
+    height: 40px;
+    width: 130px;
+    margin-top: 7px;
+}
+
+.Imagen1 {
+    background-color: #94a3b8;
+    height: 300px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+.Seccion2_main {
+    background-color: #1d9e3d;
+    height: 280px;
+}
+
+.titulo_seccion2{
+    margin-left: 250px;
+    padding: 5px;
+}
+.seccion_card{
+    display: flex;
+    justify-content: center;
+}
+
+.Seccion2_main img{
+    width: 50px;
+    height: 50px;
+    border-radius: 360px;
+    border: 2px solid;
+}
+
+.Card {
+    width: 300px;
+    height: 180px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.1); 
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer p {
+    text-align: center;
+    color: #94a3b8;
+}
+
+.seccion2_card{
+    display: flex;
+    justify-content: center;
+    background-color: #f1f5f8;
+    
+}
+
+.Card2{
+    background-color: #2a693c;
+    margin: 25px 10px 10px 10px;
+    width: 200px;
+    height: 250px;
+    padding: 10px;
+    color: #a9e0d3;
+    border-radius: 10px;
+}
