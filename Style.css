@@ -1,6 +1,20 @@
-body{
-    background-color: #f1f5f8;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
 header {
     display: flex;
     justify-content: space-between;
@@ -8,7 +22,7 @@ header {
     overflow: hidden;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #346c73;
+    background-color: #02353C;
 }
 
 .Logo_y_titulo {
@@ -22,7 +36,8 @@ header {
 }
 
 .titulo{
-    color: #30dab2;
+    color: #C2F9F0
+;
 
 }
 
@@ -47,7 +62,7 @@ header {
 
 .boton_registro {
     margin: 35px;
-    background-color: #2a693c;
+    background-color: #449342;
     border-radius: 5px;
     color: rgb(228, 228, 228);
     width: 100px;
@@ -71,11 +86,11 @@ header {
 
 .boton_inicio_sesion {
     margin: 0px;
-    background-color: #88d1c0;
+    background-color:#C2F9F0;
     border-radius: 5px;
     color: rgb(5, 5, 5);
     width: 125px;
-    height: 32px;
+    height: 38px;
     font-weight: 800;
     border: none;
     
@@ -89,23 +104,32 @@ header {
 }
 
 .Main {
-    background: linear-gradient(#1d9e3d, #002b0e)  ;
     height: 675px;
     border: #404041;
 }
 .Seccion1_main{
+    width: 100%;
+    min-height: 400px;
     display: flex;
-    margin-left: 200px;
-    padding: 15px;
+    align-items: center;
+    justify-content: space-around;
+    background-image:linear-gradient(to bottom, transparent, black), url(./target/img/altia_porteria.webp);
+    backdrop-filter: blur(10px); 
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /*	Ajusta la imagen para cubrir todo el contenedor.*/
+    
+    
 }
 
 .Card_1{
     padding: 30px ;
     width: 450px;
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.1);
     border-radius: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
 }
+
 .boton_card_1 {
     background-color: #88d1c0;
     color: #030303;
@@ -127,10 +151,15 @@ header {
 }
 
 .Imagen1 {
-    background-color: #94a3b8;
-    height: 300px;
-    width: 290px;
+   
+    height: 400px;
+    width: 390px;
     border-radius: 15px;
+}
+
+.Imagen_card_1{
+    margin-left: 50px;
+
 }
 
 .Seccion2_main {
