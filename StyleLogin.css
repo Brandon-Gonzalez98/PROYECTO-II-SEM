@@ -10,10 +10,11 @@ html, body {
     overflow-x: hidden;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
-
+body{
+    background-color: #B7D0CB;
+   padding: 0px;
+   margin: 0px;
+ }
 
 header {
     display: flex;
@@ -65,4 +66,45 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    background-color: #679fa6;
+}
+
+.formulario legend{
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    MARGIN-BOTTOM: 60PX;
+}
+
+.formulario input{
+    width: 80%;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid #000000;
+    padding-left: 10px;
+}
+
+.contenedor_Botones{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.formulario button{
+    width: 80%;
+    height: 30px;
+    margin: 10px 5px ;
+    border-radius: 5px;
+    border: none;
+    background-color: #02353C;
+    color: #C2F9F0;
+    cursor: pointer;
+}
+
+label{
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
