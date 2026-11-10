@@ -15,7 +15,7 @@
 
     <div class="seccionFormulario">
         <div class="contenedorFormulario">  
-            <form class="formulario" action="procesar_registro.php" method="POST">
+            <form id="formRegistro" class="formulario" >
                     <legend>Formulario de registro</legend>
                     <label>Nombre</label>
                     <input type="text" name="nombre" required>
@@ -33,13 +33,13 @@
                     <input type="password" name="contraseña" required>
 
                     <div class="contenedor_Botones">
-                        <button onclick="location.href='index.html'" class="boton_inicio_sesion">Volver</button>
-                        <button class="boton_inicio_sesion">Registrarse</button>
+                        <button type="button" onclick="location.href='index.html'" class="boton_inicio_sesion">Volver</button>
+                        <button type="submit" class="boton_inicio_sesion">Registrarse</button>
                     </div>
             </form>
         </div>       
     </div>   
-    <script src="ScriptLogin.js"></script>
+    <script src="ScripLogin.js"></script>
     <link rel="stylesheet" href="StyleLogin.css"> 
 </body>
 </html>
