@@ -14,11 +14,9 @@ formulario.addEventListener("submit", function(event) {
     );
 
     if (usuarioEncontrado) {
+        sessionStorage.setItem("nombreUsuario", usuarioEncontrado.nombre);
         alert("Inicio de sesión exitoso");
-
-        console.log(usuarioEncontrado);
-
-       
+        window.location.href = "dashboardUsuario.html";
 
     } else {
         alert("Correo o contraseña incorrectos");

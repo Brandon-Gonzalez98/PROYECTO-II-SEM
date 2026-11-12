@@ -59,7 +59,7 @@ header {
 .formulario{
     border: 2px solid #02353C;
     border-radius: 10px;
-    height: 65vh;
+    height: 66vh;
     width: 30vw;
     margin-top: 50px;
     display: flex;
@@ -107,4 +107,8 @@ label{
     color: #C2F9F0;
     margin-bottom: 5px;
     font-weight: bold;
+}
+
+a{
+    color: #C2F9F0;
 }
