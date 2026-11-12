@@ -1,5 +1,5 @@
 
-/* CONFIGURACION GENERAL */
+
 
 * {
     margin: 0;
@@ -18,7 +18,7 @@ body {
 }
 
 
-/* MENU LATERAL */
+
 
 .sidebar {
     width: 305px;
@@ -97,7 +97,7 @@ body {
 }
 
 
-/* CONTENIDO PRINCIPAL */
+
 
 .contenido {
     flex: 1;
@@ -106,7 +106,6 @@ body {
 }
 
 
-/* BARRA SUPERIOR */
 
 .barra-superior {
     height: 75px;
@@ -148,8 +147,6 @@ body {
 }
 
 
-/* INDICADORES PRINCIPALES */
-
 .indicadores {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -183,7 +180,6 @@ body {
 }
 
 
-/* TARJETAS GENERALES */
 
 .tarjeta {
     background-color: white;
@@ -205,7 +201,7 @@ body {
 }
 
 
-/* PRIMER GRUPO */
+
 
 .secciones-superiores {
     display: grid;
@@ -219,7 +215,6 @@ body {
 }
 
 
-/* SEGUNDO GRUPO */
 
 .secciones-centro {
     display: grid;
@@ -256,7 +251,7 @@ body {
 }
 
 
-/* TERCER GRUPO */
+
 
 .secciones-inferiores {
     display: grid;
@@ -274,7 +269,6 @@ body {
 }
 
 
-/* DISEÑO RESPONSIVE */
 
 @media (max-width: 1100px) {
 
